@@ -1,3 +1,78 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:232e7e36f56d77f0b89d2e708688b9b4b3411c4d05067fc49a550f61c354012c
-size 1578
+name: frontend
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.1.2+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  go_router: ^13.2.0
+  indexed: ^0.0.8
+  flutter_colorpicker: ^1.0.3
+  provider: ^6.1.2
+  flutter_styled_toast: ^2.2.1
+  http: ^0.13.5
+  shared_preferences: ^2.1.1
+  cached_network_image: ^3.3.1
+  transparent_image: ^2.0.1
+  file_picker: ^6.2.0
+  intl: ^0.18.1
+  path_provider: ^2.1.2
+  image_gallery_saver: ^2.0.3
+  permission_handler: ^11.3.0
+  image: ^3.3.0
+  flutter_rating_bar: ^4.0.1
+  carousel_slider: ^4.2.1
+  camera: ^0.10.5+9
+  flutter_dotenv: ^5.1.0
+  bootpay: ^4.9.2-beta.1
+  just_audio: ^0.9.36
+  just_audio_background: ^0.0.1-beta.11
+  audioplayers: ^6.0.0
+  widgets_to_image: ^0.0.2
+  tflite_flutter: ^0.10.4
+  package_info_plus: ^4.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+     - assets/images/
+     - assets/images/icons/
+     - assets/fonts/
+     - assets/music/
+     - assets/tflite/
+     - assets/config/
+
+  fonts:
+     - family: Nanumson_jangmi
+       fonts:
+         - asset: assets/fonts/Nanumson_jangmi.ttf
+     - family: Itim
+       fonts:
+         - asset: assets/fonts/Itim-Regular.ttf
+     - family: Varela
+       fonts:
+         - asset: assets/fonts/VarelaRound-Regular.ttf
+     - family: Neucha
+       fonts:
+         - asset: assets/fonts/Neucha-Regular.ttf
+     - family: PatrickHand
+       fonts:
+         - asset: assets/fonts/PatrickHand-Regular.ttf
+
